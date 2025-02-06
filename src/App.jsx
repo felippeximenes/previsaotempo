@@ -6,11 +6,16 @@ function App() {
   const [count, setCount] = useState(0)
   const inputRef = useRef()
 
-  function searchCity() {
+  async function searchCity() {
     const city = inputRef.current.value
     const key = "ab69bdd46919275bbce3b4a445ad96f6"
     
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
+
+    const data = await axios.get(url)
+    
+    console.log(data)
+
   }
 
   return (
