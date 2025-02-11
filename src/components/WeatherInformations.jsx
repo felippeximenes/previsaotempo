@@ -4,7 +4,7 @@ function WeatherInformations ({weather}) {
 
     return (
         <div>
-            <h2>{weather.name}</h2>
+            <h2>{weather}</h2>
             <div>
                 <img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} />
                 <p>{Math.round(weather.main.temp)} ºC</p>
