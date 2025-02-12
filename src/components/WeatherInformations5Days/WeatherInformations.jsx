@@ -1,15 +1,12 @@
-import './WeatherInformations.css'
+import './WeatherInformations5Days.css'
 
-function WeatherInformations({ weather }) {
-    if (!weather) {
-        return <p>Carregando informações...</p>;
-    }
+function WeatherInformations5Days({ weather5Days }) {
 
     return (
         <div className='weather-container'>
-
+            <p>5days</p>
         </div>
     );
 }
 
-export default WeatherInformations;
+export default WeatherInformations5Days;
