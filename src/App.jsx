@@ -19,8 +19,8 @@ function App() {
     const apiInfo = await axios.get(url)
     const apiInfo5Days = await axios.get(url5Days)
 
-    console.log(apiInfo5Days)
     
+    setWeather5Days(apiInfo5Days.data)
     setWeather(apiInfo.data)
     
 
