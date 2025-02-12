@@ -21,7 +21,7 @@ input {
 }
 
 button {
-    background-color: #ff9800;
+    background-color: #a79c8d;
     border: 0;
     padding: 10px;
     border-radius: 0 20px 20px 0;
@@ -31,5 +31,5 @@ button {
 }
 
 button:hover {
-    background-color: #f57c00;
+    background-color: #c9b8a7;
 }
