@@ -45,12 +45,16 @@ button:hover {
         width: 100%;
         padding: 10px;
         font-size: 1rem;
+        border-radius: 20px ;
     }
 
     button {
-        width: 20%;
+        margin-top: 10px;
+        width: 30%;
+        display: flexbox;
         padding: 10px;
         font-size: 1rem;
+        border-radius: 20px;
     }
 
     .weather-container {
