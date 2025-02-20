@@ -22,32 +22,6 @@ This is a **React** project that provides real-time weather forecasts using the 
 
 The layout has been adjusted for mobile devices, ensuring that the search button is positioned in the center to the input field and elements adapt correctly.  
 
-## 📦 How to Run the Project  
-
-1. **Clone this repository**  
-   ```sh
-   git clone https://github.com/your-username/weather-forecast.git
-   ```
-2. **Navigate to the project folder**  
-   ```sh
-   cd weather-forecast
-   ```
-3. **Install dependencies**  
-   ```sh
-   npm install
-   ```
-4. **Run the project**  
-   ```sh
-   npm start
-   ```
-5. **Open your browser** and go to `http://localhost:3000`  
-
-## 🛠 API Configuration  
-
-To make the project work correctly, you need an OpenWeatherMap API key.  
-1. Go to [OpenWeatherMap](https://home.openweathermap.org/api_keys) and create an account.  
-2. Generate an API key.  
-3. In the `App.js` file, replace `const key = "YOUR_API_KEY"` with your actual key.  
 
 ## 📸 Demo  
 
@@ -91,25 +65,6 @@ Este é um projeto desenvolvido em **React** para fornecer previsões do tempo e
 
 O layout foi ajustado para dispositivos móveis, garantindo que o botão de busca fique em frente do campo de entrada e que os elementos se ajustem corretamente.  
 
-## 📦 Como Executar o Projeto
-
-1. **Clone este repositório**
-   ```sh
-   git clone https://github.com/seu-usuario/previsao-do-tempo.git
-   ```
-2. **Acesse a pasta do projeto**
-   ```sh
-   cd previsao-do-tempo
-   ```
-3. **Instale as dependências**
-   ```sh
-   npm install
-   ```
-4. **Execute o projeto**
-   ```sh
-   npm start
-   ```
-5. **Abra o navegador** e acesse `http://localhost:3000`  
 
 ## 🛠 Configuração da API
 
