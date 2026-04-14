@@ -1,36 +1,110 @@
-.weather-container {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
+.weather-card {
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    padding: 28px 32px;
+    margin: 0 0 20px;
+    animation: fadeUp 0.35s ease-out;
 }
 
-h2 {
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .weather-card { animation: none; }
+}
+
+.city-name {
     font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
-.weather-info {
+.weather-hero {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 4px;
+    margin: 8px 0 4px;
+}
 
-    img {
-        width: 100px;
-    }
+.weather-icon {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.18));
 }
 
 .temperature {
-    font-weight: bold;
-    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.temp-unit {
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: 0.75;
 }
 
 .description {
     text-transform: capitalize;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    opacity: 0.82;
+    margin-bottom: 24px;
 }
 
+/* Detail chips */
 .details {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.detail-chip {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 14px;
+    padding: 10px 20px;
+    min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.detail-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    opacity: 0.65;
+}
+
+.detail-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .weather-card {
+        padding: 20px 16px;
+    }
+
+    .city-name {
+        font-size: 1.6rem;
+    }
+
+    .temperature {
+        font-size: 2.8rem;
+    }
+
+    .detail-chip {
+        min-width: 90px;
+        padding: 8px 14px;
+    }
 }
