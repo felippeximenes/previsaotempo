@@ -4,12 +4,6 @@ A clean, responsive weather app built with **React** and the **OpenWeatherMap AP
 
 ---
 
-## Preview
-
-https://github.com/user-attachments/assets/a24d9c27-5b0f-4076-b2d1-59ac7e01f8ce
-
----
-
 ## Features
 
 - **Current weather** — temperature, feels-like, humidity and pressure
