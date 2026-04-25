@@ -1,6 +1,6 @@
 # Weather Forecast
 
-A clean, responsive weather app built with **React** and the **OpenWeatherMap API**. Search any city in the world to get the current conditions and a 5-day outlook — all wrapped in a glassmorphism UI!
+A clean, responsive weather app built with **React** and the **OpenWeatherMap API**. Search any city in the world to get the current conditions and a 5-day outlook — all wrapped in a glassmorphism UI!!!
 
 ---
 
